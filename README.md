@@ -1,14 +1,17 @@
-
 # MLB Attendance Dashboard
+<img src="https://github.com/sakibkbhuiyan/mlb-attendance-dashboard/blob/main/www/logo_MLB.png?raw=true" alt="MLB Logo" width="200"/>
 
-
-![MLB Logo](https://github.com/sakibkbhuiyan/mlb-attendance-dashboard/blob/main/www/logo_MLB.png?raw=true)
-
-This R Shiny Dashboard illustrates Major League Baseball ballpark attendance trends. It also shows favorite teams for each state. 
+This R Shiny Dashboard shows Major League Baseball ballpark attendance trends and favorite teams for each state. 
 
 Data for this dashboard was sourced online from ESPN and Vivid Seats. 
 
 
+## Folder Strucutre
+* `data`: Stores data used by scripts. 
+* `www`: Stores image files used in the dashboard and HTML + CSS scripts that create the UI. 
+* `RScript_EDA.R`: Explores data trends and produces visualizations. 
+* `RScript_PrepData.R`: Scrapes data from espn.com and vividseats.com. 
+* `app.R`: Creates UI and server for Shiny dashboard. 
 
 
 ## Authors
