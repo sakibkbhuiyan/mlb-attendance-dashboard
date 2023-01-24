@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Poppins'>
+
+        <script src="shared/jquery.js" type="text/javascript"></script>
+        <script src="shared/shiny.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="shared/shiny.css"/>
+
+        <link rel = "stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <div>
+            <p>Select a team to view its yearly attendance trends.</p>
+        </div>
+
+        <div>
+
+
+            <ul class="flex-container-indv-team">
+                
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_ARI>
+                        <img src = "logo_ARI.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_ATL>
+                        <img src = "logo_ATL.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_BAL>
+                        <img src = "logo_BAL.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_BOS>
+                        <img src = "logo_BOS.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_CHC>
+                        <img src = "logo_CHC.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_CWS>
+                        <img src = "logo_CWS.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_CIN>
+                        <img src = "logo_CIN.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_CLE>
+                        <img src = "logo_CLE.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_COL>
+                        <img src = "logo_COL.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_DET>
+                        <img src = "logo_DET.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_HOU>
+                        <img src = "logo_HOU.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_KC>
+                        <img src = "logo_KC.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_LAA>
+                        <img src = "logo_LAA.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_LAD>
+                        <img src = "logo_LAD.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_FLA>
+                        <img src = "logo_FLA.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_MIL>
+                        <img src = "logo_MIL.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_MIN>
+                        <img src = "logo_MIN.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_NYM>
+                        <img src = "logo_NYM.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_NYY>
+                        <img src = "logo_NYY.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_OAK>
+                        <img src = "logo_OAK.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_PHI>
+                        <img src = "logo_PHI.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_PIT>
+                        <img src = "logo_PIT.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_SD>
+                        <img src = "logo_SD.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_SEA>
+                        <img src = "logo_SEA.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_SF>
+                        <img src = "logo_SF.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_STL>
+                        <img src = "logo_STL.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_TB>
+                        <img src = "logo_TB.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_TEX>
+                        <img src = "logo_TEX.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_TOR>
+                        <img src = "logo_TOR.png">
+                    </button>
+                </li>
+                <li class="flex-item-indv-team">
+                    <button class = "myButton-indv-team shiny-bound-input action-button" id = btn_indv_team_WSH>
+                        <img src = "logo_WSH.png">
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <br>   
+        
+        <p class="boxed-dark">Total Home Attendance</p>
+
+    </body>
+
+</html>

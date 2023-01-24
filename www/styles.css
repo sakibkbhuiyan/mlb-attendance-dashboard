@@ -1,0 +1,278 @@
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+
+body {font-size:22px;}
+
+p {font-size:36px;}
+
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+.flex-container-indv-team {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex-item-indv-team {
+    border-style: solid;
+    border-width: 5px;
+    background-color: #FAF9F6;
+    padding: 5px;
+    max-width: 6.5%;
+    max-height: 50%;
+    margin-top: 10px;
+    line-height: normal;
+    font-size: 3em; 
+    color: #7393B3;
+    font-weight: bold;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+.flex-container-top-ten {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex-item-top-ten {
+    border-style: solid;
+    border-width: 5px;
+    background-color: #FAF9F6;
+    padding: 5px;
+    width: 19.5%;
+    height: 33.3%;
+    margin-top: 10px;
+    line-height: normal;
+    font-size: 3em; 
+    color: #7393B3;
+    font-weight: bold;
+    text-align: center;
+}
+
+.flex-item-two-team-first-color {
+    border-style: solid;
+    border-width: 5px;
+    background: #FAF9F6;
+    max-width: 16.5%;
+    max-height: 20%;
+    line-height: normal;
+    font-size: 3em; 
+    color: #7393B3;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item-diff-color {
+    border-style: solid;
+    border-width: 5px;
+    background: #AEB6BF;
+    max-width: 16.5%;
+    max-height: 20%;
+    line-height: normal;
+    font-size: 3em; 
+    color: #7393B3;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item-fav-team {
+    border-style: solid;
+    border-width: 0px;
+    padding: 5px;
+    background: #FFFFFF; 
+    width: 19.5%;
+    height: 33.3%;
+    margin-top: 10px;
+    line-height: normal;
+    font-size: 3em; 
+    color: #7393B3;
+    font-weight: bold;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5px 5px;
+    margin: 5px;
+    list-style: none;
+    align-items: left;
+    align-content: left;
+    justify-items: left;
+    justify-content: left;
+}
+
+.flex-item {
+    border-style: solid;
+    border-width: 5px;
+    background-color: #FAF9F6;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    line-height: normal;
+    font-size: 3em; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
+
+.landscape {
+    height: 30px;
+    width: 80px;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+}
+
+.myButton-indv-team{
+    background: no-repeat;
+    cursor:pointer;
+    border:none;
+    padding: 0px 0px; 
+    text-align: center;
+    opacity:0.8;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.myButton-indv-team:active{
+    background-color: #7393B3;
+    opacity:1
+}
+
+.myButton-indv-team:focus{
+    background-color: #7393B3;
+    opacity:1
+}
+
+.myButton-indv-team:hover{
+    opacity:1
+}
+
+.myButton-indv-team:disabled,
+.myButton[disabled]{
+    color: gray; 
+    opacity: 0.8;
+}
+
+.myButton-top-ten{
+    background: no-repeat;
+    cursor:pointer;
+    border:none;
+    padding: 0px 0px; 
+    text-align: center;
+    opacity:0.8;
+    width: 100%;
+    height: 100%;
+    color: #2d4053
+}
+
+.myButton-top-ten:active{
+    background-color: #7393B3;
+    opacity:1
+}
+
+.myButton-top-ten:focus{
+    background-color: #7393B3;
+    opacity:1
+}
+
+.myButton-top-ten:hover{
+    opacity:1
+}
+
+.myButton-top-ten:disabled,
+.myButton-top-ten[disabled]{
+    color: gray; 
+    opacity: 0.8;
+}
+
+.myButton{
+    background: no-repeat;
+    cursor:pointer;
+    border:none;
+    padding: 0px 0px; 
+    text-align: center;
+    opacity:0.8;
+    max-width: 100%;
+    max-height: 100%;
+    color: white
+}
+
+.myButton:active{
+    background-color: #7393B3;
+    opacity:1
+}
+
+.myButton:focus{
+    background-color: #7393B3;
+    opacity:1
+}
+
+.myButton:hover{
+    opacity:1
+}
+
+.myButton:disabled,
+.myButton[disabled]{
+    color: gray; 
+    background-color: darkgray;
+    opacity: 0.8;
+}
+
+.boxed {
+    border: 3px solid #FFFFFF ;
+    font-size: 62px;
+    text-align: center;
+    color: #FFFFFF; 
+    background-color: #7EB2DD;
+    height: 100px; 
+    margin: auto; 
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.boxed-dark {
+    border: 3px solid #FFFFFF ;
+    font-size: 62px;
+    text-align: center;
+    color: #FFFFFF; 
+    background-color: #445E93;
+    height: 100px; 
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    
+} 

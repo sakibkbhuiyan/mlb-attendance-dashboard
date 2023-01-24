@@ -1,0 +1,31 @@
+TEAM,LOGO_SRC,TEAM_NAME,TEAM_COLOR
+Arizona,'www/logo_ARI.png',Arizona Diamondbacks,#A71930
+Atlanta,'www/logo_ATL.png',Atlanta Braves,#CE1141
+Baltimore,'www/logo_BAL.png',Baltimore Orioles,#DF4601
+Boston,'www/logo_BOS.png',Boston Red Sox,#BD3039
+Chicago Cubs,'www/logo_CHC.png',Chicago Cubs,#0E3386
+Chicago White Sox,'www/logo_CWS.png',Chicago White Sox,#27251F
+Cincinnati,'www/logo_CIN.png',Cincinnati Reds,#C6011F
+Cleveland,'www/logo_CLE.png',Cleveland Guardians,#00385D
+Colorado,'www/logo_COL.png',Colorado Rockies,#333366
+Detroit,'www/logo_DET.png',Detroit Tigers,#0C2340
+Houston,'www/logo_HOU.png',Houston Astros,#EB6E1F
+Kansas City,'www/logo_KC.png',Kansas City Royals,#004687
+LA Angels,'www/logo_LAA.png',Los Angeles Angels,#BA0021
+LA Dodgers,'www/logo_LAD.png',Los Angeles Dodgers,#005A9C
+Miami,'www/logo_FLA.png',Miami Marlins,#00A3E0
+Milwaukee,'www/logo_MIL.png',Milwaukee Brewers,#FFC52F
+Minnesota,'www/logo_MIN.png',Minnesota Twins,#002B5C
+NY Mets,'www/logo_NYM.png',New York Mets,#FF5910
+NY Yankees,'www/logo_NYY.png',New York Yankees,#0C2340
+Oakland,'www/logo_OAK.png',Oakland Athletics,#003831
+Philadelphia,'www/logo_PHI.png',Philadelphia Phillies,#E81828
+Pittsburgh,www/logo_PIT.png',Pittsburgh Pirates,#FDB827
+San Diego,'www/logo_SD.png',San Diego Padres,#2F241D
+San Francisco,'www/logo_SF.png',San Francisco Giants,#FD5A1E
+Seattle,'www/logo_SEA.png',Seattle Mariners,#005C5C
+St. Louis,'www/logo_STL.png',St. Louis Cardinals,#C41E3A
+Tampa Bay,'www/logo_TB.png',Tampa Bay Rays,#8FBCE6
+Texas,'www/logo_TEX.png',Texas Rangers,#C0111F
+Toronto,'www/logo_TOR.png',Toronto Blue Jays,#1D2D5C
+Washington,'www/logo_WSH.png',Washington Nationals,#AB0003
