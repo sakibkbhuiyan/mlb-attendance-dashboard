@@ -3,6 +3,8 @@
 
 This R Shiny Dashboard shows Major League Baseball ballpark attendance trends and favorite teams for each state. 
 
+The dashboard is hosted by shinyapps.io and can be accessed here:  https://sakibbhuiyan.shinyapps.io/Shiny_MLB_Attendance/
+
 Data for this dashboard was sourced online from ESPN and Vivid Seats. 
 
 
